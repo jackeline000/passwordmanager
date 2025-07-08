@@ -30,7 +30,7 @@ class PasswordManager {
             return
         }
 
-        println("\n🔐 Saved Credentials:")
+        println("\nSaved Credentials:")
         // Loop through the list and print each credential
         credentials.forEachIndexed { index, cred ->
             println("${index + 1}. Website: ${cred.website}, Username: ${cred.username}, Password: ${cred.password}")
@@ -103,10 +103,10 @@ fun main() {
             "3" -> manager.searchCredential(scanner)
             "4" -> manager.deleteCredential(scanner)
             "5" -> {
-                println("👋 Exiting Password Manager. Goodbye!")
+                println("Exiting Password Manager. Goodbye!")
                 break  // Exit the loop and end the program
             }
-            else -> println("❗ Invalid option, please try again.\n")
+            else -> println("Invalid option, please try again.\n")
         }
     }
 }

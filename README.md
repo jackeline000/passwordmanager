@@ -2,7 +2,7 @@
 
 For this project, I wanted to get more comfortable writing real, functional code in Kotlin. I created a password manager that lets users store, view, search, and delete login credentials using simple user input. This helped me explore how Kotlin handles data classes, collections, and conditional logic in a practical way. My goal was to better understand Kotlin syntax while building something useful.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Dynyj8P3gbk)
 
 # Development Environment
 
@@ -10,14 +10,11 @@ I used Visual Studio Code as my IDE and installed the Kotlin compiler to run my 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Keeper](https://docs.keeper.io/en/keeperpam/secrets-manager/developer-sdk-library/java-sdk)
+- [W3Schools](https://www.w3schools.com/KOTLIN/index.php)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 
 - Let users update existing credentials
 - Add password strength checking
